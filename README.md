@@ -30,7 +30,7 @@ exe ファイルを起動すると、GUI 上にあなたの GitHub Contributions
 
 ## 詳細・概要
 #### 背景
-毎日GitHubのContributionsを確認するために、ブラウザを開いて、ブックマークから飛んで、スクロールして･･･というのが少し面倒くさくなったので、Rust(egui)・GraphQLの練習のために作成。
+毎日GitHubのContributionsを確認するために、ブラウザを開いて、ブックマークから飛んで、スクロールして･･･というのが少し面倒くさくなったので、Rust(egui)・GraphQLの練習のために作成しました。
 
 
 #### 主な機能
@@ -50,3 +50,7 @@ exe ファイルを起動すると、GUI 上にあなたの GitHub Contributions
  - シンプルなセットアップ: 認証情報を .env に記載するだけで、簡単に利用可能
 
  - クロスプラットフォーム対応: 基本は Windows 向けですが、設定次第で他の OS への展開も検討可能
+
+#### プレビュー
+![image](https://github.com/user-attachments/assets/38d65222-c8cc-4466-a6db-4dd5cdb7b550)
+
