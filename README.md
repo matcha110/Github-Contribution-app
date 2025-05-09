@@ -13,27 +13,27 @@
 - GitHub GraphQL API
 
 ## 使い方
-- 環境変数ファイルの準備
+#### 環境変数ファイルの準備
 プロジェクトルートに配置されている env.example ファイルをコピーして、.env というファイル名で保存します。
 
-- 認証情報の入力
+#### 認証情報の入力
  - GITHUB_TOKEN
 GitHub の Personal Access Token を記載します。トークンは GitHub の Developer settings → Personal access tokens から作成できます。
  - GITHUB_USERNAME
 自身の GitHub ユーザー名を指定してください。
 
-- 配置場所
+#### 配置場所
 ビルドして生成された exe ファイルと同じディレクトリに .env ファイルを配置します。
 
-- 実行
+#### 実行
 exe ファイルを起動すると、GUI 上にあなたの GitHub Contributions 数やヒートマップが表示され、日々の活動を視覚的に確認することができます。
 
 ## 詳細・概要
-- 背景
+#### 背景
 毎日GitHubのContributionsを確認するために、ブラウザを開いて、ブックマークから飛んで、スクロールして･･･というのが少し面倒くさくなったので、Rust(egui)・GraphQLの練習のために作成。
 
 
-- 主な機能
+#### 主な機能
 
  - GitHub GraphQL API を使用した Contribution データの取得
 
@@ -43,7 +43,7 @@ exe ファイルを起動すると、GUI 上にあなたの GitHub Contributions
 
  - エラーメッセージやログの表示による、ユーザーフィードバックの強化
 
-- 利点
+#### 利点
 
  - 軽量で高速: Rust のパフォーマンスのおかげで素早いデータ取得と描画が可能
 
