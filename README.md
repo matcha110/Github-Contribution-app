@@ -73,13 +73,8 @@ GitHub の Personal Access Token を記載します。トークンは GitHub の
 exe ファイルを起動すると、GUI 上にあなたの GitHub Contributions 数やヒートマップが表示され、日々の活動を視覚的に確認することができます。
 
 ## 詳細・概要
-<<<<<<< Updated upstream
 #### 背景
 毎日GitHubのContributionsを確認するために、ブラウザを開いて、ブックマークから飛んで、スクロールして･･･というのが少し面倒くさくなったので、Rust(egui)・GraphQLの練習のために作成しました。
-=======
-- 背景
-毎日GitHubのContributionsを確認するために、ブラウザを開いて、ブックマークから飛んで、スクロールして･･･というのが少し面倒くさくなったのとRust(egui)・GraphQLの練習のために作成。
->>>>>>> Stashed changes
 
 
 #### 主な機能
